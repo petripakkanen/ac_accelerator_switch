@@ -2,21 +2,15 @@
 name = "accsw"
 version = "0.1.0"
 description = "MSP6050 accelometer signal switch"
-authors = [
-    "Petri Pakkanen <devpakkanen@gmail.com>"
-]
+authors = [ "Petri Pakkanen <devpakkanen@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 python = "^3.6"
-homepage = "https://github.com/MartinThoma/infer_pyproject"
-repository = "https://github.com/MartinThoma/infer_pyproject"
-documentation = "https://github.com/MartinThoma/infer_pyproject"
-
-keywords = ["signal", "software", "accelometer", "accsw"]
-
-classifiers = [
-    "Topic :: Software Development"
-]
+homepage = "https://github.com/petripakkanen/ac_accelerator_switch/README"
+repository = "https://github.com/petripakkanen/ac_accelerator_switch"
+documentation = "https://github.com/petripakkanen/ac_accelerator_switch/docs"
+keywords = ["signal", "software", "accelometer", "accsw", "MSP6050"]
+classifiers = [ "Topic :: Software Development" ]
 
 # Requirements
 [dependencies]
@@ -37,7 +31,6 @@ line-length = 88
 target_version = ['py36']
 include = '\.pyi?$'
 exclude = '''
-
 (
   /(
       \.eggs         # exclude a few common directories in the
